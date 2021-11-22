@@ -185,4 +185,4 @@ if __name__ == "__main__":
 
     # Load model
     model = load_model(os.path.join('model', 'multinomial_lr.pkl'))
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
