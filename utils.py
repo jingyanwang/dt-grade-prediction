@@ -30,7 +30,7 @@ from numpy import dot
 from numpy.linalg import norm
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.externals import joblib
+import joblib
 from pyemd import emd
 
 
