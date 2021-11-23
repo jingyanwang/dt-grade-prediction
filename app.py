@@ -20,13 +20,14 @@
 import json
 import os
 
+import joblib
+
 import numpy as np
 from numpy.linalg import norm
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, classification_report
-from sklearn.externals import joblib
 from pyemd import emd
 from flask import Flask
 from flask import jsonify
